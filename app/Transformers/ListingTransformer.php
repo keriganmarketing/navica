@@ -2,9 +2,9 @@
 
 namespace App\Transformers;
 
+use App\Listing;
 use App\Location;
 use League\Fractal\TransformerAbstract;
-use App\Listing;
 
 class ListingTransformer extends TransformerAbstract
 {
